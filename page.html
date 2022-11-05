@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="page.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+	<title>Accueil</title>
+</head>
+<body>
+	<div class="loader"></div>
+	
+	<nav class="homeNav">
+		<div class="navLinks">
+			<div class="nav-item1"><a href="./page.html">Accueil</a></div>
+			<div class="nav-item1"><a href="./pages/tendances.html">Tendance</a></div>
+			<div class="nav-item1"><a href="./pages/about.html">À propos</a></div>
+		</div>
+	</nav>
+	<div class="all" id="haut">
+		<main class="home1">
+			<div class="home">
+				<h1 class="title">BIENVENUE À BORD</h1>
+				<p class="description">Embarquez pour le meilleur voyage de votre vie.</p>
+				<div class="btn">
+					<a href="./pages/tendances.html"><button class="btnItem">Décourvir</button></a>
+					<a href="./pages/sign.html"><button class="btnItem">S'inscrire</button></a>
+				</div>
+				<div class="btn-disc">
+					<button class='btn-discover'>
+						<svg 
+						class="discover"
+						width="55px"
+						height="55px"
+						viewBox="0 0 125 125"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<circle class="bg-svg" cx="60" cy="60" r="59.5" stroke="white"></circle>
+						<circle class="filled" pathLength="1" cx="60" cy="60" r="59.5" stroke="white"></circle></svg>
+						<span><a href="#allDest"><img class="arrow" src="./image/arrow.png"/></a></span>
+					</button>
+				</div>
+			</div>		
+		</main>
+		<div id="allDest">
+			<h1 class="destTitle">Toutes nos destinations :</h1>
+			<div class="list">
+			
+			</div>
+			<a href="#haut" class="retour"><img src="./image/arrow2.png" alt=""></a>
+		</div>
+	</div>
+
+
+	<script src="./page.js"></script>
+</body>
+</html>
